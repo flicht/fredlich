@@ -89,7 +89,7 @@ aside {
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 16px;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
@@ -156,6 +156,19 @@ header {
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/header.jpg');
+  text-align: center;
+  color: white;
+}
+header2 {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/header2.jpg');
   text-align: center;
   color: white;
 }
